@@ -9,7 +9,7 @@ const clearChatButton = document.getElementById("deleteButton");
 let currentUserMessage = null;
 let isGeneratingResponse = false;
 
-const GOOGLE_API_KEY = "AIzaSyDVv0C1ElubvCZQxLlInY45nbuZPhvsNng";
+const GOOGLE_API_KEY = "YOUR GOOGLE API KEY";
 const API_REQUEST_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${GOOGLE_API_KEY}`;
 
 // Load saved data from local storage
